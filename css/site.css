@@ -28,3 +28,9 @@ ul {
   padding: 10px 10px;
   Margin-left: 10px
 }
+#subject { overflow: hidden }
+#difficulties { overflow: hidden }
+#results { overflow: hidden }
+img{
+  margin-right:10px;
+}
