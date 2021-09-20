@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<title>Lab 6: More Complicated HTML</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
-
+	<main>
+	<div id="content">
+		<h1>Lab 6: More Complicated HTML</h1>
+		<img src="img/lab6_cat.png" alt="Squadron of Pelicans at Del Monte Beach" width="400"/>
+		<h2>Subject of this Lab</h2>
+		<p>This lab was about using complex tags and elements in HTML and how CSS
+		can affect the look of your page. Mostly we worked with the form element which
+		allows us to collect information from site visitors using various methods.
+	 	We learned to do this with input and label tags that define the type of form:
+		radio, checkbox, etc. and the information within that form. Implementing the
+		CSS file showed us the changes CSS can make and how.</p>
+		<h2>Difficulties Faced</h2>
+		<p>I had two issues while doing this lab, firstly my radio input field wasn't
+		working properly, I was able to select multiple options. I figured out my
+		error on W3 Schools—I mistakenly named each input differently like with "checkbox,"
+		once I made the names the same everything was working. My second problem was
+		with the CSS, the background color for the #content div wasn't extending to
+		the bottom of my form. Upon checking the CSS I noticed the height element for
+		div#content was set to 80vh but my form goes past my screen's viewport so I
+		changed the height to 100% which worked.</p>
+		<h2>Our Results</h2>
+		<p>The completion of this lab resulted in an uploaded lab6 page with working
+		checkboxes, radio buttons, a dropdown, text, and password input as well as a
+		submit button which links to google through the action attribute and GET
+		method which places the data within the URL.</p>
+		<a href="../index.html" target="_blank">Go to My Homepage</a>
+		<br><br>
+		<form action="http://google.com/search" method="GET">
+			<label for="checkbox"><b>Favorite part/s of the new OSU</b></label><br><br>
+			<input type="checkbox" name=osu1>
+			<label for="osu1">Forager's Cove (Bok Choy, Ghost kitchen)</label><br>
+			<input type="checkbox" name=osu2>
+			<label for="osu2">The Rookery (game room)</label><br>
+			<input type="checkbox" name=osu3>
+			<label for="osu3">Sea Store</label><br>
+			<input type="checkbox" name=osu4>
+			<label for="osu4">Starbucks</label><br>
+			<br>
+			<label for="radio"><b>How many in-person classes do you have?</b></label><br><br>
+			<input type="radio" name="class">
+			<label for="class">0</label><br>
+			<input type="radio" name="class">
+			<label for="class">1–2</label><br>
+			<input type="radio" name="class">
+			<label for="class">3–4</label><br>
+			<input type="radio" name="class">
+			<label for="class">5+</label><br>
+			<br>
+			<label for="year"><b>What is your academic standing?</b></label><br><br>
+			<select name=“year”>
+				<option value="" disabled selected>Please Select</option>
+				<option value=“frst”>Freshman</option>
+				<option value=“scnd”>Sophomore</option>
+				<option value=“thrd”>Junior</option>
+				<option value=“frth”>Senior</option>
+				<option value=“trnsfr”>Transfer Student</option>
+			</select>
+			<br>
+			<br>
+			<label for="reviews"><b>What do you like and dislike about CSUMB?</b></label><br><br>
+			<textarea name="reviews">
+			</textarea>
+			<br>
+			<br>
+			<label for="password"><b>Password:</b></label><br><br>
+			<input type="password" name="pwd">
+			<br>
+			<br>
+			<input type="submit">
+		</form>
+	</div>
+	</main>
 </body>
 </html>
