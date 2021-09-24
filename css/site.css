@@ -12,7 +12,7 @@ h1 {
   border-width: 2px;
   border-color: #307248;
   padding: 5px 10px;
-  margin-left: 10px
+  margin-left: 10px;
 }
 h2 {
   background-color:#E4F0F7;
@@ -26,7 +26,7 @@ ul, .links {
   border-width: 2px;
   border-color: #307248;
   padding: 10px 10px;
-  margin-left: 10px
+  margin-left: 10px;
 }
 .usualsecs { overflow: hidden }
 

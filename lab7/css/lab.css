@@ -1,0 +1,35 @@
+
+h1 {
+  font-family: Monaco, monospace;
+  text-decoration: underline;
+  color: #29251F;
+  margin-left: 10px;
+  height: 30px;
+  width: auto;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: #29251F;
+  background-color: #E17906;
+  border: solid 5px maroon;
+  margin: 10px;
+}
+.review {
+  overflow: hidden;
+  background-color: #D7D2CB;
+  border-top: solid 5px maroon;
+  height: auto;
+  width: auto;
+  padding: 10px;
+}
+#photo {
+  float: left;
+  width: 40vw;
+  height: auto;
+}
+#photo img {
+  max-width: 95%;
+  height: auto;
+  border-radius: 10px;
+  margin: 2px;
+}
