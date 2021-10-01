@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  background-color: #7b8c49;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title, .review {
+  border: solid 3px #203940;
+  background-color: #FEFAE0;
+  padding-left: 20px;
+}
+#title h1 {
+  font-size: 240%;
+  margin-top: 15px;
+  color: #3C1518;
+}
+#title h2 {
+  font-size: 115%;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  color: #262625;
+}
+
+.review {
+  overflow: hidden;
+  font-size: 85%;
+  font-weight: bold;
+  height: auto;
+  width: auto;
+}
+h2#challenge, #results {
+  color: #223843;
+  text-decoration: underline;
+}
+h2#problems {
+  color: #9E2A2B;
+  text-decoration: underline;
+}
+
+#photo:hover {
+  transform: scale(1.8);
+}
+.review #photo {
+  float: right;
+  height: 80vh;
+  width: auto;
+}
+.review #photo img {
+  max-height: 92%;
+  width: auto;
+  border-radius: 10px;
+  margin: 20px;
+  padding-left: 60px;
+}
+
+/*put photo before headings so it can sit at the top corner*/
