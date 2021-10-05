@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+  background-color: #DBE1F1;
+}
+#content {
+  font-family: 'Roboto Slab', serif;
+  background-color: rgba(1,166,240,0.8);
+  border: solid 2px #F34F1C;
+  margin: 1px;
+  padding: 15px;
+}
+
+#header {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  font-size: 95%;
+}
+#header h1 {
+  height: 100%;
+  text-align: center;
+  margin-top: 6px;
+  color: #6F432A;
+}
+#header img {
+  position: relative;
+  width: 60px;
+  padding-right: 10px;
+  margin-bottom: -12px;
+  margin-top: -10px;
+}
+
+.review { /* Thanks to William Craig on Web FX */
+  overflow: hidden;
+  border: dotted 3px #F34F1C;
+  padding: 5px;
+  font-size: 85%;
+  background-image: url("../img/lab9_newjersey.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #01A6F0;
+  height: 100%;
+  /* don't use vh/vw for img backgrounds */
+}
+
+.review h2, p {
+  background-color: rgba(219,225,241,0.9);
+  margin-left: 20px;
+  margin-right: 25vw;
+  padding: 10px;
+  outline: 1px solid darkgrey;
+}
+.review h2 {
+  color: #7FBC00;
+  text-decoration: underline;
+  width: 100px;
+  padding: 5px;
+}
+h2#problems {
+  color: #F34F1C;
+}
