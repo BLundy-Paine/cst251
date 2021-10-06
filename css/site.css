@@ -41,9 +41,9 @@ a:visited {
 img {
   margin:10px;
   border-radius: 8px;
+  max-width: 90vw;
 }
 #headimg {
-  max-width: 90vw;
   max-height: 50vh;
   width: auto;
   height: auto;
