@@ -1,0 +1,101 @@
+body {
+  background-color: #afc953;
+}
+
+#content {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  height: 200vh;
+}
+
+#content #links {
+  position: sticky;
+  top: 0;
+  margin-bottom: 35px;
+  font-weight: 900;
+  font-size: 120%;
+  font-family: 'Chakra Petch', sans-serif;
+}
+#links .homepage, .csscode {
+  padding: 10px;
+  margin: 10px;
+  border: solid 3px rgba(235, 247, 253, 0.9);
+  border-radius: 8px;
+  background-color: #597c18;
+  text-decoration: none;
+}
+
+h1.header {
+  min-width: 40%;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: solid 3px #597c18;
+  border-radius: 8px;
+  font-family: 'Chakra Petch', sans-serif;
+  color: #512324;
+  font-size: 225%;
+  text-align: center;
+  background-color: rgba(235, 247, 253, 0.8);
+}
+
+#sidebar {
+  width: 30%;
+  min-width: 300px;
+  padding: 15px;
+  display: inline-block;
+  float: right;
+  background-color:rgba(235, 247, 253, 0.8);
+  border: solid 3px #597c18;
+  border-radius: 8px;
+  font-size: 90%;
+}
+#sidebar h2 {
+  margin-left: 10px;
+  margin-top: 5px;
+  text-decoration: underline;
+  font-size: 140%;
+  color: #512324;
+}
+#sidebar h3 {
+  margin-left: 20px;
+  margin-bottom: -5px;
+  font-style: italic;
+  color: #1e4796;
+}
+
+#sections {
+  width: 60%;
+  min-width: 20vw;
+  float: left;
+  border: solid 3px #597c18;
+  border-radius: 8px;
+  background-color: rgba(235, 247, 253, 0.8);
+  padding: 15px;
+  font-size: 100%;
+}
+#sections h2 {
+  font-size: 130%;
+  padding-top: 20px;
+  margin-bottom: -5px;
+  margin-top: -15px;
+  font-weight: 900;
+  color: #512324;
+}
+#sections p {
+  padding-left: 20px;
+}
+
+img {
+  position: relative;
+  bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+a:link {
+  color: #ebf7fd;
+}
+a:visited {
+  color: #ebf7fd;

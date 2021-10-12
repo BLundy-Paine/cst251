@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+	<title>Lab 11: Advanced Block-Level Styling I</title>
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+</head>
+
+<body>
+	<main id="content">
+
+	<nav id="links">
+		<a class="homepage" href="../index.html" target="_blank">Go to My Homepage</a>
+		<a class="csscode" href="css/lab.css" target="_blank">See This Site's CSS</a>
+	</nav>
+
+	<h1 class="header">Lab 11: Advanced Block-Level Styling I</h1>
+
+	<img src="img/lab11_frogs.png" alt="Strip of Multicolored Frogs"/>
+
+	<aside id="sidebar">
+		<h2>Benjamin Lundy-Paine</h3>
+		<h3>Some Fun Facts About Me</h3>
+		<p>My second great-granduncle Haven Gillespie, born in 1888, wrote the Christmas
+		classic <i>Santa Claus is Coming to Town</i> in around 1933. Gillespie famously
+		wrote the lyrics on the back of an envelope, while traveling on the NY subway,
+		in only 15 minutes. His songs went on to be performed by many of the greats
+		including Bruce Springsteen, Duke Ellington, and Frank Sinatra. I'd like to say
+		that I inherited some of my great-granduncle's musical talent, but I am less of
+		a lyrical genius and more the type to enjoy the musical talents of others.</p>
+		<p>My family has always been very artistic, my parents ran a theatre company
+		while I was growing up and my sibling went to NYU Tisch for acting.The first
+		thirteen years of my life were spent in and around plays, from Shakespeare camps
+		to a two year stint at Oakland School for the Arts, I thought acting was my future.
+		Unfortunately, the pressure around looks, lines, and success was crushing for me,
+		and the people of the theatre world are some of the most pompous I've ever met.
+		One day I'd like to be in just one more play, to get to play the type of role I
+		always wanted but never got — the comedic side character.</p>
+	</aside>
+
+	<div id="sections">
+			<h2 id="challenge">Challenge</h2>
+			<p>The challenging part of this lab was getting both the sidebar and main
+			content to sit nicely together even on a small screen. At first the main
+			content kept getting way too small and it took awhile to figure out what
+			width and min-widths would give the desired effect.</p>
+
+			<h2 id="problems">Problems</h2>
+			<p>The sticky position attribute seemed simple enough at first until it started
+			disappearing halfway through scrolling down the page. Through searching the
+			code and referencing W3 schools, it became apparent that it was being cut off
+			by the size of its parent element. This was fixed by setting a height bigger
+			than required for the content div.</p>
+
+			<h2 id="results">Results</h2>
+			<p>This lab resulted in an uploaded lab10 page styled using positioning such
+			as sticky and relative as well as a navigational bar and sidebar. We now
+			have a better understanding of how to position elements where we want them
+			using several different positioning attributes. We also can now add sidebars
+			and menus to enhance our pages.</p>
+	</div>
+
+	</main>
+</body>
+</html>

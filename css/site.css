@@ -17,6 +17,7 @@ body {
   padding: 5px 10px;
   margin-left: 10px;
   overflow: hidden;
+  margin-top: 15px;
 }
 h2 {
   background-color:#E4F0F7;
@@ -40,6 +41,7 @@ a:visited {
 }
 img {
   margin:10px;
+  margin-top: 20px;
   border-radius: 8px;
   max-width: 90vw;
 }
@@ -48,3 +50,62 @@ img {
   width: auto;
   height: auto;
 }
+
+#navbar {
+  min-height: 40px;
+  background-color:#E4F0F7;
+  border-bottom: 5px solid #307248;
+  padding: 5px 5px;
+  position: sticky;
+  top: 0;
+}
+
+#navbar a {
+  display:inline-block;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#dropdown {
+  display:inline-block;
+  overflow: hidden;
+}
+
+#dropdown #dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+#navbar a:hover, #dropdown:hover #dropbtn {
+  background-color: #E4F0F7;
+}
+
+#dropcont {
+  display: none;
+  position: absolute;
+  background-color: #E4F0F7;
+  min-width: 160px;
+  z-index: 1;
+}
+
+#dropcont  a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+#dropcont  a:hover {
+  background-color: #E4F0F7;
+}
+
+#dropdown:hover #dropcont {
+  display: block;
