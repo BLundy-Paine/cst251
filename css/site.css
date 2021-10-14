@@ -3,11 +3,13 @@
 body {
   background-color: #205493;
   font-family: 'Montserrat', sans-serif;
+  margin: -1px;
 }
 .heading {
   background-color: #dcdcdc;
   border-bottom: 5px solid #307248;
   padding: 5px 5px;
+  margin-top: 30px;
 }
 .content {
   background-color: #dcdcdc;
