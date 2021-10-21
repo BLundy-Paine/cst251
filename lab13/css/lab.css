@@ -19,6 +19,7 @@ body {
   overflow: hidden;
   background-color: #dcdcdc;
   width: 45vw;
+  min-width: 30em;
   padding: 0.5em 0.1em;
   margin: 1em;
   margin-top: 1.5em;
@@ -38,6 +39,7 @@ h2 {
 }
 p {
   margin-left: 1em;
+  margin-right: 1em;
 }
 iframe#fake {
     float: right;
