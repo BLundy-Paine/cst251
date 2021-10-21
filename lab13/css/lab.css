@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+  background-color: #205493;
+  margin: -1px;
+}
+#content {
+  font-family: 'Montserrat', sans-serif;
+}
+.header {
+  background-color: #dcdcdc;
+  border-bottom: 5px solid #307248;
+  padding: 5px 25px;
+  margin: 15px;
+  font-weight: 600;
+}
+
+#sections {
+  overflow: hidden;
+  background-color: #dcdcdc;
+  width: 45vw;
+  padding: 0.5em 0.1em;
+  margin: 1em;
+  margin-top: 1.5em;
+}
+#challenge {
+  margin-top: -0.3em;
+  border-top: none;
+}
+h2 {
+  width: 100%;
+  margin-left: -0.1em;
+  background-color:#E4F0F7;
+  border-top: 10px solid #205493;
+  border-bottom: 5px solid #307248;
+  padding: 0.3em 0.5em;
+  font-weight: 500;
+}
+p {
+  margin-left: 1em;
+}
+iframe#fake {
+    float: right;
+    width: 50vw;
+    min-width: 30em;
+    max-width: 96.5vw;
+    min-height: 525px;
+    max-height: 100vh;
+    resize: both;
+    /* margin-top: 2em;
+    margin-right: 1em; */
+    margin: 2em 1em;
+    margin-left: 1em;
+    overflow: hidden;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  height: 2em;
+  background-color:#E4F0F7;
+  border-bottom: 5px solid #307248;
+  padding: 0.3em 0.2em;
+  margin-bottom: 2em;
+  font-weight: 600;
+}
+#navbar a {
+  display:inline-block;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+a:link {
+  color: mediumblue;
+}
+a:visited {
+  color: royalblue;
+}
