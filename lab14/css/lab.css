@@ -44,7 +44,7 @@ p {
 iframe#fake {
     float: right;
     width: 50vw;
-    min-width: 30em;
+    min-width: 35em;
     max-width: 96.5vw;
     min-height: 525px;
     max-height: 100vh;
