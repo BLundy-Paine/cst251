@@ -8,7 +8,7 @@ body {
 .heading {
   background-color: #dcdcdc;
   border-bottom: 5px solid #307248;
-  padding: 5px 5px;
+  padding: 5px 20px;
   margin-top: 30px;
 }
 .content {
@@ -70,12 +70,12 @@ img {
   text-decoration: none;
 }
 
-#dropdown {
+#dropdown, #dropdown2 {
   display:inline-block;
   overflow: hidden;
 }
 
-#dropdown #dropbtn {
+#dropdown #dropbtn, #dropdown2 #dropbtn2 {
   font-size: 20px;
   border: none;
   outline: none;
@@ -85,11 +85,11 @@ img {
   margin: 0;
 }
 
-#navbar a:hover, #dropdown:hover #dropbtn {
+#navbar a:hover, #dropdown:hover #dropbtn, #dropdown2:hover #dropbtn2 {
   background-color: #E4F0F7;
 }
 
-#dropcont {
+#dropcont, #dropcont2  {
   display: none;
   position: absolute;
   background-color: #E4F0F7;
@@ -97,7 +97,7 @@ img {
   z-index: 1;
 }
 
-#dropcont  a {
+#dropcont  a, #dropcont2  a {
   float: none;
   padding: 12px 16px;
   text-decoration: none;
@@ -105,9 +105,10 @@ img {
   text-align: left;
 }
 
-#dropcont  a:hover {
+#dropcont  a:hover, #dropcont2  a:hover {
   background-color: #E4F0F7;
 }
 
-#dropdown:hover #dropcont {
+#dropdown:hover #dropcont, #dropdown2:hover #dropcont2 {
   display: block;
+}
