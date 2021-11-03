@@ -1,0 +1,37 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav {
+  max-width: 10vw;
+  min-width: 5em;
+  height: max-content;
+  padding: 5px 10px 0px 10px;
+}
+nav a {
+  display: block;
+  padding-bottom: 25px;
+  line-height: 2em;
+}
+
+.flex-container > nav {
+  justify-content: flex-end;
+}
+
+main {
+  width: 85vw;
+  min-width: 20em;
+  margin-bottom: 10px;
+  margin-left: 1px;
+}
+
+aside {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space:nowrap;
+  height: 15em;
+  margin-bottom: 10px;
+}

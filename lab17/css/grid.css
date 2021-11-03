@@ -1,0 +1,45 @@
+.grid-container {
+  display: grid;
+  grid-template-areas: 'nav main main'
+  'aside aside aside'
+  'footer footer footer';
+}
+
+header {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+nav {
+  grid-area: nav;
+  max-width: 10vw;
+  min-width: 5em;
+  height: max-content;
+  padding: 5px 10px 0px 10px;
+
+}
+nav a {
+  display: block;
+  padding-bottom: 25px;
+  line-height: 2em;
+}
+
+main {
+  grid-area: main;
+  min-width: 14em;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+aside {
+  grid-area: aside;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space:nowrap;
+  height: 15em;
+  margin-bottom: 10px;
+}
+
+footer {
+  grid-area: footer;
+}

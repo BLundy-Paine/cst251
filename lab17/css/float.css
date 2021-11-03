@@ -1,0 +1,32 @@
+nav {
+  float: left;
+  max-width: 10vw;
+  min-width: 5em;
+  padding: 5px 10px 0px 10px;
+}
+nav a {
+  display: block;
+  padding-bottom: 25px;
+  line-height: 2em;
+}
+
+main {
+  float: right;
+  width: 85vw;
+  min-width: 20em;
+  margin-bottom: 10px;
+  margin-left: 1px;
+}
+
+aside {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space:nowrap;
+  clear: both;
+  height: 15em;
+  margin-bottom: 10px;
+}
+
+footer {
+  clear: both;
+}
