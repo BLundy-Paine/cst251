@@ -40,6 +40,9 @@ aside {
   background-color: rgba(75,0,130,0.1);
   border: solid 2px indigo;
   padding: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space:nowrap;
 }
 #click {
   border-bottom: solid 2px indigo;

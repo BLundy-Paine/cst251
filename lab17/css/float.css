@@ -19,9 +19,6 @@ main {
 }
 
 aside {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space:nowrap;
   clear: both;
   height: 15em;
   margin-bottom: 10px;

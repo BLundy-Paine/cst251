@@ -33,9 +33,6 @@ main {
 
 aside {
   grid-area: aside;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space:nowrap;
   height: 15em;
   margin-bottom: 10px;
 }
