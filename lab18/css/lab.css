@@ -1,0 +1,108 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav {
+  max-width: 10vw;
+  min-width: 5em;
+  height: max-content;
+  padding: 5px 10px 0px 10px;
+}
+nav a {
+  display: block;
+  padding-bottom: 25px;
+  line-height: 2em;
+}
+
+.flex-container > nav {
+  justify-content: flex-end;
+}
+
+main {
+  width: 85vw;
+  min-width: 20em;
+  margin-bottom: 10px;
+  margin-left: 1px;
+}
+
+aside {
+  height: 15em;
+  margin-bottom: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: honeydew;
+}
+h1, h2 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+  background-color: rgba(255,0,0,0.1);
+  border: solid 2px red;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
+nav {
+  background-color: rgba(255,165,0,0.1);
+  border: solid 2px orange;
+  font-weight: 500;
+}
+.label, #click {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+  border: solid 3px blue;
+}
+
+section {
+  background-color: rgba(0,128,0,0.1);
+  border: solid 2px green;
+  padding: 10px;
+}
+
+aside {
+  background-color: rgba(75,0,130,0.1);
+  border: solid 2px indigo;
+  padding: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space:nowrap;
+}
+#click {
+  border-bottom: solid 2px indigo;
+  width: 14.5em;
+  margin-top: 5px;
+  letter-spacing: 1pt;
+  font-size: 14pt;
+}
+img {
+  width: 21vw;
+  min-width: 14em;
+}
+
+footer {
+  background-color: rgba(238,130,238,0.1);
+  border: solid 2px violet;
+  text-align: center;
+}
+footer p {
+  font-weight: 500;
+  line-height: 2em;
+}
+
+a:link {
+  color: firebrick;
+}
+a:visited {
+  color: firebrick;
+}

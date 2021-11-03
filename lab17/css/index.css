@@ -4,6 +4,7 @@
 body {
   font-family: 'Quicksand', sans-serif;
   background-color: honeydew;
+  font-size: 1.3em;
 }
 h1, h2 {
   font-family: 'Ubuntu', sans-serif;
@@ -49,10 +50,10 @@ aside {
   width: 14.5em;
   margin-top: 5px;
   letter-spacing: 1pt;
-  font-size: 14pt;
 }
 img {
   width: 21vw;
+  max-width: 18em;
   min-width: 14em;
 }
 
