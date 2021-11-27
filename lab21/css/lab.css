@@ -1,0 +1,42 @@
+body {
+  background-color: #ffa549;
+}
+
+.navbar {
+  background-color: #ea651d !important;
+}
+.nav-link {
+  color: rgba(255,255,255, 0.85) !important;
+}
+
+header {
+ text-align: center;
+}
+
+.container {
+  background-color: rgba(255,255,255,0.1);
+}
+li {
+  padding: 5px;
+}
+.border {
+  border-width: 2px !important;
+}
+.border-bottom {
+  border-width: 4px !important;
+  margin-bottom: 0;
+  border-color: #ea651d !important;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+figcaption {
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    font: italic medium sans-serif;
+    padding: 10px;
+    text-align: center;
+}
